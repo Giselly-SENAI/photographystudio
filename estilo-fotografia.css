@@ -1,0 +1,377 @@
+
+body {
+
+    background-color: #0a0a0a;
+    text-align: center;
+}
+
+
+
+/* nav {
+
+  background-image: url(fotos/primeira2.png);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  height: 1000px;
+  text-align: center; */
+    /* top: 9000;
+    right: 500;
+    
+} */
+
+
+/* nav a {
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 30px;
+    background-color: #ffdb0c;
+    color: #000000;
+padding: 30px;
+border-radius: 20px;
+text-decoration: none;
+margin-top: 10px;
+
+} */
+
+
+
+h1 {
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+   
+}
+
+h2 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffffff;
+    color: #000000;
+font-weight: 400;
+padding: 30px 10px 30px 10px;
+clear: both;
+
+
+}
+
+
+h3 {font-family: Roboto, Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+font-weight: 40;
+}
+    
+.opacidade {
+box-shadow:-5px 5px 30px ;
+transition: width 3s;
+transition: opacity 2s;
+}
+
+
+  .opacidade:hover {
+
+    width:450px ;
+    opacity: 0.3;
+    
+  }
+
+
+  .opacidade1 {
+    box-shadow:-5px 5px 30px;
+    transition: width 3s;
+    transition: opacity 2s;
+    }
+    
+    
+      .opacidade1:hover {
+    
+        width:450px;
+      
+        
+      }
+
+
+#logo{
+    text-align: center;
+    /* margin: 1000px; */
+}
+
+/* .direita {
+
+text-align: right;    
+margin-right: 25px;
+margin-left: 25px;
+float: right;
+}
+
+.esquerda {
+
+    text-align: left;    
+    margin-left: 0px;
+    margin-right: 25px 25px 0px 0px;
+    float: left;
+} */
+
+.servicos {
+  display: inline-block;
+  width: 300px;
+  margin: 30px;
+  vertical-align: top;
+}
+
+figcaption {
+   
+  font-family: Roboto, Arial, sans-serif;
+   font-size: 50px;
+   color: #ffdb0c;
+}
+
+
+
+p {
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.lista{
+    text-align: center;
+}
+#redes{
+
+    text-align: center;
+}
+
+
+#redes a {
+    text-decoration: none;
+}
+
+#whats {
+    text-align: right;
+    margin-right: 25px;
+}
+
+footer {
+font-family: Roboto, Arial, sans-serif;
+font-size: 25px;
+
+color: #ffdead;
+font-weight: 400;
+padding: 20px 0px 20px 0px;
+
+}
+
+nav {
+  background-image: url(fotos/primeira2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 600px;
+}
+
+nav a {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 20px;  
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 30px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+nav a:hover{
+
+  background-color:#ffdb0c;
+
+}
+
+
+
+/* ESTE É O ESTILO da FOTOGRAFIA */
+
+.galeria{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.centro {
+    text-align: center;
+
+}
+
+
+
+/* ESTE É O ESTILO DO SLIDE SHOW */
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+      display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top:auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+  .icone-redes{
+    transition: all 0.4s;
+  }
+
+  .icone-redes:hover{
+    /* transform: translateX(-20px); */
+  /* transform: translateX(+20px) */
+    transform: rotate(45deg)
+
+  }
+
+   /* ESTE É O ESTILO DO CADASTRO */
+
+   fieldset {
+
+    border-color: #ffffff;
+    background-color: #000000;
+  }
+
+  legend {
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    color: #ffdb0c;
+  }
+
+  form {
+width: 700px;
+margin: auto;
+}
+
+  .botao-enviar {
+    text-align: right;
+    margin-top: 20px;
+  }
+
+  textarea:hover {
+    
+background-color: #ffdb0c;
+
+  }
+
+  table{
+
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ffdb0c;
+    background-color: #ffffff;
+    border-spacing: 0px;
+   margin: auto;
+   margin-bottom: 40px;
+  }
+
+  th,td{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 30px;
+    color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffdead;
+    text-align: center;
+    padding: 20px;
+
+  }
+
+  td{
+
+    font-size: 25px;
+  }
+
+  .preco {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+
+  }
+ 
+
